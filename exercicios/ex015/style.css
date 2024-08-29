@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+img{
+    align-items: center;
+}
+    
+
+body{
+    background-color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-size: medium;
+}
+h1{font-style: oblique; color: white;
+
+}
+li{
+    font-style: oblique; color: white;
+}
+p{
+    font-style: oblique; color: white;
+}
