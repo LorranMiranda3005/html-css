@@ -60,14 +60,33 @@ section.normal{
 }
 
 section.imagem {
-    background-color: #303330;
+    background-color: #30333085;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.315);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
+    display: inline-block;
     width: 400px;
     padding-left: 10px;
-    background-color: #1E201E;
+    background-color: #1e201e65;
+    text-shadow: 2px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url("imagens/background001.jpg");
+    background-position: center right;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url("imagens/background002.jpg");
+    background-position: center right;
+    background-size: cover;
+
+
 }
 
 footer {
