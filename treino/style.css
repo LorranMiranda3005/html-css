@@ -1,12 +1,111 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+#CFB365
+#A5966C
+#FACC50
+#7A7564
+#504C41
+#332E21
+
+*/
+
+:root {
+    --cor0:#CFB365;
+    --cor1:#b4a372;
+    --cor2:#FACC50;
+    --cor3:#7A7564;
+    --cor4:#504C41;
+    --cor5:#332e219f;
+
+    --font0:"Roboto", sans-serif;
+    --font1:"Cookie"
+    
+
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 html, body {
-    min-height: 100vh;
+    background-image: url("imagenspla/salaplanejada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+
+}
+
+header {
+    height: 100px;
+    color:var(--cor1);
+    background-color: var(--cor5);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.315);
+    position: relative;
+
+    font: normal 800 2em var(--font1);
+}
+
+header > p { color: var(--cor1);
+    padding-bottom: 5px;
+    position: absolute;
+    left: 44%;
+    top: 80px;
     
+   
+}
+
+main {
+    background-color: var(--cor5);
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+main > h2 {
+    color: var(--cor1);
+    font: normal 600 1.5em var(--font0);
+    padding-top: 10px;
+    
+}
+
+main > p {
+    color: var(--cor1);
+    font: normal 500 1em var(--font0)
+}
+    
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: var(--cor5);
+
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer > a:hover { text-decoration: underline;
+    color: #504C41;
 
 }
