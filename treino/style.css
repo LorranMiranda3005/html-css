@@ -37,6 +37,7 @@ html, body {
     background-size: cover;
     background-position: center right;
     background-attachment: fixed;
+    
 
 }
 
@@ -54,10 +55,11 @@ header {
 }
 
 header > p { color: var(--cor1);
-    padding-bottom: 5px;
+    padding-top: 60px;
     position: absolute;
-    left: 44%;
-    top: 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
    
 }
@@ -70,6 +72,20 @@ main {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    position: relative;
+    
+    
+
+}
+
+main > div.planejado1 {
+    height: 150px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
