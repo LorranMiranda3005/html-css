@@ -6,9 +6,10 @@
     <title>Teste de Formulário</title>
 </head>
 <body>
-    <form action="cadastro.php" method="post">
-        <p><label for="iusu">Usuário:</label><input type="text" name="usu" id="iusu"></p>
-        <p><label for="isen">Senha:</label><input type="password" name="sen" id="isen"></p>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p><label for="iusu">Usuário:</label><input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" autocomplete="username" placeholder="ex:Ribamar123"></p>
+        <p><label for="isen">Senha:</label><input type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password"></p>
+        <input type="submit" value="Enviar">
     </form>
     
 </body>
