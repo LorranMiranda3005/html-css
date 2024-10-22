@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Tablets */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+         }
+
+    main {
+        width: 768px;
+    }     
+    
+}
+
+/* Desktops e Notebooks */
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+         }
+
+         main {
+            width: 768px;
+        }          
+    
+}
+
+/* Grandes telas */
+
+@media  screen and (min-width:1202px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+      
+        
+    }
+    main {
+        width: 768px;
+    }     
+    
+}

@@ -56,9 +56,9 @@ menu ul li a {
 }
 
 a:hover {
-    background-color: #2b2a2a;
+    background-color: white;
     transform: translate(3px);
-    color: #a09f9f;
+    color: black;
 }
 
 main {
